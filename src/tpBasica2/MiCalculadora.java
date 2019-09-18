@@ -1,34 +1,42 @@
+
 package tpBasica2;
 import java.util.Scanner;
 
-		public class MiCalculadora {
-			 public static void main(String[] args) {
-			 Integer a = 0;
-			 Integer b = 0;
-			 Integer opcion;
-			 Integer resultado;
-			 Scanner teclado = new Scanner(System.in);
-			do{
-			 System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
-			 opcion = teclado.nextInt();
-			 }while(opcion < 1 && opcion > 4);
-			 System.out.println("Ingrese el primer numero");
-			 a = teclado.nextInt();
-			 System.out.println("Ingrese el segundo numero");
-			 a = teclado.nextInt();
-		 	 if(opcion.equals(1)){
-			 resultado = a + b;
-			 }else if(opcion.equals(2)){
-			 resultado = a - b;
-			 }else if(opcion.equals(3)){
-			 resultado = a * b;
-			 }else{
-			 resultado = a / b;
-			 }
-			 System.out.println("El resultado es " + resultado.toString());
-			 teclado.close();
-			 }
+public class MiCalculadora {
+	public static void main(String[] args) {
+		
+		//atributos
+		Integer a = 0;
+		Integer b = 0;
+		Integer opcion;
+		Integer resultado;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		do{
+			System.out.println("Ingrese su operaciÃ³n: 1 para sumar, 2 para restar, 3 para multiplicar, 4 para dividir");
+			System.out.println("Luego, ingrese los numeros que desee operar");
+			opcion = teclado.nextInt();	
+		}while(opcion <= 1 && opcion >= 4);
+		
+			switch(opcion) {
+				case 1:
+					
+				break;
+				
+				case 2:
+					
+				break;
+				
+				case 3:
+					
+				break;
+				
+				case 4:
+					
+				break;
 			}
-
-
-
+	}
+}		
+		
+		
