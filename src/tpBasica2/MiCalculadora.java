@@ -54,4 +54,14 @@ public class MiCalculadora {
 	}
 }		
 		
-		
+//¿Qué es GIT FLOW?
+//Git-flow es un conjunto de extensiones para Git, agrega comandos que por detras
+usan los comandos de git.
+
+//¿Cómo puede ayudarnos a trabajar en equipo?
+// ayuda a trabajar dando la posibilidad de trabajar sobre copias de los contenidos de Develop y Master, las
+cuales son develop y hotfix.
+
+//¿Se relaciona con alguna de las estrategias planteadas? ¿Como?
+//Esto logra que al trabajar en equipo, mientras correjimos algo en el codigo del programa, podemos hacerlo sin
+alterar el trabajo de otro miembro del equipo.		
