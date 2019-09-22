@@ -52,9 +52,19 @@ public class MiCalculadora {
 				break;
 			}
 	}
-}		
-		
-//¿Qué es GIT FLOW?
+}
+
+//9. Realizar en el repositorio remoto un merge request
+//¿Qué diferencias notaron en el proceso?
+//se abrio un merge luego del pull -Pull request successfully merged and closed- y permite comparar cambios entre
+//los distintos branches y commits, e incluso entre forks
+
+//¿Qué estrategia utilizarían para evitar conflictos?
+//leer los cambios a medida que se van aplicando y comentar en cada caso que fue lo que se introdujo
+//que mejoras o correcciones hubo, comentandolo en cada merge request		
+//SIEMPRE CREAR NUEVOS BRANCH, NO TRABAJAR EN LA RAMA MASTER
+
+//10 ¿Qué es GIT FLOW?
 //Git-flow es un conjunto de extensiones para Git, agrega comandos que por detras
 //usan los comandos de git.
 
