@@ -63,7 +63,7 @@ public class MiCalculadora {
 
 //¿Se relaciona con alguna de las estrategias planteadas? ¿Como?
 //Esto logra que al trabajar en equipo, mientras correjimos algo en el codigo del programa, podemos hacerlo sin alterar el trabajo de otro miembro del equipo.
-
+//alppp
 
 
 
